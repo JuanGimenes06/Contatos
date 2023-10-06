@@ -1,0 +1,96 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+/* *** */
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 5px;}
+body{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;}
+#contato-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;
+    width: 20vw;
+    align-items: center;}
+.input{
+    outline: none;
+    border-bottom:  #000 2px solid;
+    border-radius: 1px;
+    margin: 5px 0;
+    width: 250px;}
+.btn,
+.btnS{
+    background-color: #fff ;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;}
+.btnS{
+    margin-top: 10px;}
+.btn{
+    margin: 0 10px;
+    padding: 7px 0;}
+#comentario{
+    resize: none; }
+#contato-lista{
+    list-style-type: none;
+    font: 200 14px arial;}
+li{
+    border-bottom: 1.8px #000 solid ;
+    margin: 5px 0;}
+@keyframes btn {
+    0%{
+        background-color: #fff;
+}
+
+    100%{
+        background-color: #f3f3f3;
+    }}
+.btn:hover,
+.btnS:hover{
+    animation-name: btn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;}
+/* Adicione essas classes CSS */
+.fade-in {
+    animation: fadeIn 1s;
+    opacity: 1;}
+.fade-out {
+    animation: fadeOut 1s;
+    opacity: 0;}
+@keyframes fadeIn {
+    from {
+    opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }}
+@keyframes fadeOut {
+    from {
+    opacity: 1;
+    }
+    to {
+    opacity: 0;
+    }}
+
+
+
+
+
+
+
