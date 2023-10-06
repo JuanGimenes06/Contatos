@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Contatos</h1>
+
+    <form id="contato-form">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="tel" placeholder="Telefone" required>
+
+        <button type="submit">Adicionar Contato</button>
+    </form>
+
+    <div class="botoes">
+        <button id="mostrar-contato">Mostrar contato</button>
+        <button id="ocultar-contato">Ocultar contatos</button>
+    </div>
+
+    <ul id="contato-lista"></ul>
+    
+    <script src="main.js"></script>
+</body>
+</html>
